@@ -1,0 +1,116 @@
+body{
+  overflow-x: hidden;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  position: sticky;
+  background-color: black;
+  border-bottom: 1px solid #ccc;
+  top: 0;
+  z-index: 100;
+}
+#menu-icon {
+  height: 75px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#logo {
+  width: 50%;
+  color: #fff;
+  width: 100px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1em;
+  align-self: left;
+}
+#logo img {
+  width: 100px;
+}
+#blog-name h1 {
+  width: 100%;
+  margin: 0;
+  font-size: 2em;
+  color: #feb300;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600; 
+}
+main{
+  position: relative;
+  overflow-x: hidden;
+  justify-content: justify;
+  width: 100%;
+  height: fit-content;
+}   
+#heading{
+  display: flex;
+  justify-content: center;
+}
+#upper-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+#upper-content p{
+  max-width: 1200px;
+  text-align: justify;
+  justify-content: center;
+  margin: auto;
+  margin-right: 200px;
+  margin-left: 200px;
+  display: grid;
+  row-gap: 20px;
+  line-height: 2;
+  line-height: 2;
+  font-family: roboto, sans-serif;
+  font-size: 1.1em;
+}
+#upper-content img{
+  width: 276px;
+  height: 185px;
+  margin: auto;
+  justify-content: center;
+}
+#lower-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+#lower-content h2,p,ul{
+  max-width: 1200px;
+  text-align: justify;
+  justify-content: center;
+  margin: auto;
+  margin-right: 200px;
+  margin-left: 200px;
+  text-align: justify;
+  display: grid;
+  row-gap: 20px;
+  line-height: 2;
+  line-height: 2;
+  font-family: roboto, sans-serif;
+  font-size: 1.1em;
+
+}
+#lower-content img{
+  margin: auto;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+footer {
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+}

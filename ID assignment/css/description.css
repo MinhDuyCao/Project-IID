@@ -1,0 +1,112 @@
+body{
+  overflow-x: hidden;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  position: sticky;
+  background-color: black;
+  border-bottom: 1px solid #ccc;
+  top: 0;
+  z-index: 100;
+}
+#menu-icon {
+  height: 75px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#logo {
+  width: 50%;
+  color: #fff;
+  width: 100px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1em;
+  align-self: left;
+}
+#logo img {
+  width: 100px;
+}
+#blog-name h1 {
+  width: 100%;
+  margin: 0;
+  font-size: 2em;
+  color: #feb300;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600; 
+}
+#navigation {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  margin: 0;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+
+}
+.link{
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1em;
+}
+.link a{
+  text-decoration: unset;
+  color: black;
+}
+main {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+#main-image {
+  width: 100%;         
+  height: 120px;       
+  object-fit: cover;   
+  display: block;
+  object-position: center 40%;
+}
+main p {
+  line-height: 2;
+  font-family: roboto, sans-serif;
+  font-size: 1.1em;
+}
+#main-content h1{
+  position: relative;
+  text-align: center;
+}
+#middle-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0px;
+}
+#middle-content a {
+  width: 33%;           
+  border-radius: 4px;
+  text-align: center  ;
+}
+#down {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.thumbnail {
+  width: 32%;           
+  object-fit: cover;    
+  border-radius: 10px;
+}
+footer {
+  position: relative;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  background-color: rgba(0,0,0,0.3);
+  color: white;
+}
